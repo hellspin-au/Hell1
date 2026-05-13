@@ -75,8 +75,8 @@ const isHome = /\/lander\.html$/.test(path);
   bd.className = 'modal-backdrop';
   bd.innerHTML = `
 <div class="modal">
-<h3>Hellspin for Aussie</h3>
-<p>Get welcome offer $5000 + 100 FS</p>
+<h3>Welcome to Hell</h3>
+<p>Get welcome offer 5200AU + 100 FS</p>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
 <button class="btn" id="age-yes">Yes, Accept</button>
 <button class="btn ghost" id="age-no">Close</button>
