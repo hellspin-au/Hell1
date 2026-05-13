@@ -75,8 +75,8 @@ const isHome = /\/lander\.html$/.test(path);
   bd.className = 'modal-backdrop';
   bd.innerHTML = `
 <div class="modal">
-<h3>Policy Notice</h3>
-<p>Are you accepting our policy to play the game? This notice is informational and does not block access.</p>
+<h3>Hellspin for Aussie</h3>
+<p>Get welcome offer $5000 + 100 FS</p>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
 <button class="btn" id="age-yes">Yes, Accept</button>
 <button class="btn ghost" id="age-no">Close</button>
