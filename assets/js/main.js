@@ -76,7 +76,7 @@ const isHome = /\/lander\.html$/.test(path);
   bd.innerHTML = `
 <div class="modal">
 <h3>Welcome to Hell</h3>
-<p>Get welcome offer 5200AU + 100 FS</p>
+<p>Get welcome offer 5200 AU$ + 100 FS</p>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
 <button class="btn" id="age-yes">Yes, Accept</button>
 <button class="btn ghost" id="age-no">Close</button>
@@ -89,12 +89,12 @@ const isHome = /\/lander\.html$/.test(path);
   // ✅ Redirect when "Yes" is clicked
   bd.querySelector('#age-yes').addEventListener('click', 
                                                 function(){
-    window.location.href = "http://nexrix.site/?utm_campaign=EVRXrP900C&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+    window.location.href = "https://nexrix.site/?utm_campaign=EVRXrP900C&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
  
   // ✅ Just close modal when "No" is clicked
   bd.querySelector('#age-no').addEventListener('click', 
                                                function(){
-    window.location.href = "http://nexrix.site/?utm_campaign=EVRXrP900C&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+    window.location.href = "https://nexrix.site/?utm_campaign=EVRXrP900C&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
   });
 })();
